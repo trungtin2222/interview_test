@@ -7,14 +7,13 @@
  */
 
 import React from 'react';
-import {StyleSheet} from 'react-native';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {StyleSheet, SafeAreaView, Text} from 'react-native';
 
 const App = () => {
   return (
-    <SafeAreaProvider>
+    <SafeAreaView>
       <Text>{'Interview Test'}</Text>
-    </SafeAreaProvider>
+    </SafeAreaView>
   );
 };
 
